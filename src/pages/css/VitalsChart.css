@@ -1,0 +1,16 @@
+.chart-row {
+    display: flex;
+    justify-content: space-between; /* Space between charts */
+    margin-bottom: 20px; /* Space between rows */
+  }
+  
+  .chart-container {
+    flex: 1; /* Allow charts to grow equally */
+    margin: 0 10px; /* Spacing between chart containers */
+    min-width: 0; /* Prevent overflow */
+  }
+  
+  .chart-container h3 {
+    text-align: center; /* Center title */
+  }
+  
